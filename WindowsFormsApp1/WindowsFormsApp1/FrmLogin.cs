@@ -40,8 +40,8 @@ namespace WindowsFormsApp1
             {
                 if (txtUsername.Text == username && txtPassword.Text == password)
                 {
-                    MessageBox.Show("Dobrodošli!", "Prijavljeni ste",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    FrmStudents frmStudents = new FrmStudents();
+                    frmStudents.ShowDialog();
                 }
                 else
                 {
