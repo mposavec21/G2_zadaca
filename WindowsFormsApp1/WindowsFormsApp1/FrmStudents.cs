@@ -20,9 +20,9 @@ namespace WindowsFormsApp1
         }
 
         private void FrmStudents_Load(object sender, EventArgs e)
-            {
-                ShowStudents();
-            }
+        {
+          ShowStudents();
+        }
         private void ShowStudents()
         {
             List<Student> students = StudentRepository.GetStudents();
