@@ -41,7 +41,9 @@ namespace WindowsFormsApp1
                 if (txtUsername.Text == username && txtPassword.Text == password)
                 {
                     FrmStudents frmStudents = new FrmStudents();
+                    Hide();
                     frmStudents.ShowDialog();
+                    Close();
                 }
                 else
                 {
