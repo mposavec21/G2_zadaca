@@ -51,7 +51,7 @@ namespace WindowsFormsApp1.Models
             int minPointsForGrade =
             int.Parse(reader["MinPointsForGrade"].ToString());
             int minPointsForSignature =
-           int.Parse(reader["MinPointsForSignature"].ToString());
+            int.Parse(reader["MinPointsForSignature"].ToString());
             var activity = new Activity
             {
                 Id = id,
